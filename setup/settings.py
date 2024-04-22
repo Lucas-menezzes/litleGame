@@ -21,6 +21,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "bear",
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
@@ -33,7 +34,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "setup.urls"
+ROOT_URLCONF = "bear.urls"
 
 TEMPLATES = [
     {
